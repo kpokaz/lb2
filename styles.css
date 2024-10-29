@@ -1,0 +1,107 @@
+.p3{
+    color: blue;
+    background-color: yellow;
+    font-size: 20px;
+}
+h2,h3,h4,h5,h6{
+    font-size: 28px
+}
+
+.p4{
+    font: size 30px;
+    background-color: lightcoral;
+}
+
+#sec-section{
+    background-color: cyan;
+    padding: 10px;
+}
+
+.relative-sec{
+    position: relative;
+    background-color: green;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #aaa;
+}
+
+.absoulete-sec{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: lightblue;
+    border: 10px;
+    font-weight: bold;
+}
+
+.layer1 {
+    float: right;
+    background: #fd0;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 5px;
+    width: 40%;
+}
+
+.radio-container {
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="radio"]:checked + label {
+    background-color: lightgreen;
+    color: white;
+}
+
+label:hover {
+    background-color: gray;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #808080;
+    padding: 20px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box1 { 
+    background-color: green;
+    order: 3; 
+}
+.box2 { 
+    background-color: blue;
+    order: 4; 
+}
+.box3 { 
+    background-color: red;
+    order: 1; 
+}
+.box4 { 
+    background-color: blue;
+    order: 2; 
+}

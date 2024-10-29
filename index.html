@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <title>Каскадні таблиці CSS</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .p2{
+                color: coral;
+                background-color: purple;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <header>
+            <h1>Лабораторна робота 2. Варіант 3</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Cпособи використання каскадних таблиць стилів:</h2>
+                <p style="color: red;background-color: black;font-size: 24px;">Цей текст був оформлений за допомогою inline-опису</p>
+                <p class="p2">Цей текст був оформленй за допомогою опису у секції заголовка</p>
+                <p class="p3">Цей текст був оформлений за допомогою підключеного css файлу</p>
+            </section>
+
+            <section id="sec-section">
+                <h3>Селектори тегів, класи та ідентифікатори</h3>
+                <p class="p4">Цей текст оформлено за допомогою селектора тега</p4>
+                <p>Ця секція оформлена за допомогою селектора за ідентифікатором</p>
+            </section>
+
+            <section>
+                <h4>Відносне, фіксоване та абсолютне позіціювання </h4>
+                <section class="relative-sec">
+                    Це відносне позіціювання
+                    <section class="absoulete-sec">Це абсолютне позіціювання</section>
+                </section>
+            </section>
+
+            <section>
+                <h5>Елементи з властивістю float</h5>
+                <p class="layer1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta perspiciatis facere numquam rem dolorum ullam cupiditate animi! Quo facere harum accusantium ducimus consectetur quam adipisci illum atque alias voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat voluptatum deleniti sit ducimus distinctio excepturi iusto minima nihil sequi ex rem consequatur, animi esse beatae sint placeat et ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa in non eveniet, natus inventore delectus libero maiores pariatur accusantium laudantium tenetur omnis quidem minus fugit, voluptas quod molestiae! Ex, eligendi?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore modi exercitationem praesentium qui, et necessitatibus porro sint placeat similique, beatae corrupti. Ipsa, placeat. Sapiente, voluptatem eum. Voluptatum repellendus recusandae quidem?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate rem, quia, recusandae ipsa animi, placeat eaque consectetur velit amet itaque dicta. Libero deleniti placeat optio? Explicabo sed saepe cupiditate! Quis.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, maxime consequuntur. Necessitatibus, ullam. Sapiente, error dolores incidunt cum quo cupiditate? Omnis corrupti deleniti, voluptates dolorem vel nesciunt doloremque ullam mollitia.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit itaque doloremque quos voluptas molestias iure esse aut nisi consequuntur, excepturi, quis quidem totam, in beatae eius possimus distinctio sint sunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ab? Enim dolorem adipisci voluptatem fugit debitis quasi qui, veritatis minima earum quis voluptatibus ex dolores aut molestiae ullam quam quae.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque iste repellat eaque officia blanditiis, laudantium dolorum. In mollitia aut sunt culpa aspernatur autem delectus debitis amet veniam, doloribus temporibus eveniet?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos, beatae magnam magni rerum maxime alias illo maiores repellendus dolore ut aspernatur ab exercitationem, iusto illum deserunt quod hic harum?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatum temporibus iure maiores ad laudantium recusandae exercitationem aperiam ducimus ab, voluptates, error sed excepturi quam laboriosam. Ex quidem excepturi vel!
+                </p>
+            </section>
+
+            <section>
+                <h6>Завдання згідно варіанту</h6>
+                <p>1. Перемикачі (radio buttons)</p>
+                <div class="radio-container">
+                    <input type="radio" id="option1" name="options" checked>
+                    <label for="option1">Опція 1</label>
+
+                    <input type="radio" id="option2" name="options">
+                    <label for="option2">Опція 2</label>
+
+                    <input type="radio" id="option3" name="options">
+                    <label for="option3">Опція 3</label>
+
+                    <input type="radio" id="option4" name="options">
+                    <label for="option4">Опція 4</label>
+                </div>
+
+                <p>2. Контейнер з елементами (з використанням order)</p>
+                <div class="flex-container">
+                    <div class="box box1">1</div>
+                    <div class="box box2">2</div>
+                    <div class="box box3">3</div>
+                    <div class="box box4">4</div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
